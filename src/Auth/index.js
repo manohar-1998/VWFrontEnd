@@ -14,7 +14,7 @@ export const signout = (next) => {
     localStorage.removeItem("jwt");
     localStorage.clear();
     sessionStorage.clear();
-    window.location.href = "/Signin";
+    window.location.href = "/";
     next();
   }
 };
