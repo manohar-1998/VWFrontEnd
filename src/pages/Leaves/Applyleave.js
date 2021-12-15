@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import { useHistory } from "react-router";
-import { Button, Form, Segment } from "semantic-ui-react";
 import { isAuthenticated } from "../../Auth";
 import { toast } from "react-toastify";
 import './Leavespage.css'

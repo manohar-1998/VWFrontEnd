@@ -1,4 +1,5 @@
 import React from 'react'
+import TheHome from './Leaves/TheHome'
 import TheContent from './TheContent'
 import TheHeader from './TheHeader'
 
@@ -9,7 +10,8 @@ const TheLayout = () => {
       <div className="c-wrapper">
         <TheHeader/>
         <div className="c-body">
-          <TheContent/>
+          {/* <TheContent/> */}
+          <TheHome/>
         </div>
       </div>
     </div>

@@ -1,0 +1,53 @@
+.maincarddiv{
+    display: flex;
+}
+.leftcarddiv{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 20%;
+    margin-left: 350px;
+    margin-top: 20px;
+}
+.rightcarddiv{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 20%;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+.imageprop{
+    width: 100%;
+    height: 100px; 
+    width: 100px;
+}
+.imagedescription{
+    padding: 2px 16px;
+}
+.imagedescription span{
+    margin-left: 100px;
+}
+.imagedescription button{
+    border-radius: 5px;
+}
+
+@media only screen and (max-width : 426px)  {
+    .maincarddiv{
+        display: block;
+    }
+    .leftcarddiv{
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 20px;
+        border: springgreen ridge;
+    }
+    .rightcarddiv{
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 20px;
+        border: springgreen ridge;
+    }
+  } 

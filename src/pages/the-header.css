@@ -1,0 +1,48 @@
+.header {
+    background: #2c2c2c;
+    margin-top: 3px;
+    display: flex;
+}
+.list span{
+    display: flex;
+}
+.list span i.fa{
+    color: cyan;
+}
+.productlink{
+    color: thistle;
+    cursor: pointer;
+    margin: 13px 0px 0px 30px;
+    font-size: 24px;
+}
+
+  /*Small Mobile */
+  @media only screen and (min-width : 0px) and (max-width : 480px)  {
+    .header {
+        background-color: #dcf30a;
+    }
+    .list span i.fa{
+        color: maroon;
+    }
+    .productlink{
+        color: maroon;
+        cursor: pointer;
+        margin: 15px 0px 0px 20px;
+        font-size: 18px;
+        font-weight:bolder;
+    }
+  }
+
+    /* Tablet */
+    @media only screen and (min-width : 430px) and (max-width : 768px)  {
+        .header {
+            background-color: #22c962;
+        }
+      }
+
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width : 1240px) and (max-width : 1440px)  {
+    .header {
+        background-color: #e75419;
+    }
+  } 
