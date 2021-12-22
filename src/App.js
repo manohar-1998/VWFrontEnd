@@ -1,5 +1,6 @@
 import React from "react";
 import { HashRouter, Route, Switch } from "react-router-dom";
+import TheHome from "./pages/Leaves/TheHome";
 import TheLayout from "./pages/TheLayout";
 const loading = (
   <div className="pt-3 text-center">
@@ -15,7 +16,8 @@ function App() {
           <Route
             exact
             path="/"
-            component={Signin}
+            // component={Signin}
+            component={TheHome}
           />
           <Route
             path="/"
