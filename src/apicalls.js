@@ -1,5 +1,5 @@
 import axios from "axios";
-export const LoginApi = async (userData)=> axios.post(`http://localhost:5005/api/clogin`,userData);
+export const LoginApi = async (userData)=> axios.post(`https://vitwit-gm.herokuapp.com/api/clogin`,userData);
 export const Addleave = async (data) =>axios.post(`http://localhost:5005/api/leaves`,data);
 export const createuser = async (data) =>axios.post(`http://localhost:5005/api/users`,data);
 export const getleaves = async () =>axios.get(`http://localhost:5005/api/allLeaves`);
